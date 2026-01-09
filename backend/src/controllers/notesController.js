@@ -1,5 +1,5 @@
 export const getAllNotes = (req, res) => {
-  res.status(200).send("you successfully fetched data");
+  res.status(200).send("you successfully fetched data from server");
 };
 
 export const createNote = (req, res) => {
