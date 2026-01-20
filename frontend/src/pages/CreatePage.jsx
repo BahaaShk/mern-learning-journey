@@ -46,8 +46,8 @@ const CreatePage = () => {
   return (
     <div className="min-h-screen bg-base-200">
       <div className="container mx-auto px-4 py-8">
-        <div className="max-w-2xl mx-auto">
-          <Link  to={"/"} className="btn btn-primary mb-6 rounded-2xl ">
+        <div className="max-w-2xl  mx-auto">
+          <Link  to={"/"} className="btn btn-primary mb-6 btn-outline">
             <ArrowLeftIcon className="size-5" />
             Back to Notes
           </Link>
@@ -82,7 +82,7 @@ const CreatePage = () => {
 </div>
 
                 <div className="card-actions justify-end">
-                  <button type="submit" className="btn btn-primary rounded-2xl " disabled={loading}>
+                  <button type="submit" className="btn btn-primary btn-outline" disabled={loading}>
                     {loading ? "Creating..." : "Create Note"}
                   </button>
                 </div>
