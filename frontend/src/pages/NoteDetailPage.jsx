@@ -120,7 +120,7 @@ const NoteDetailPage = () => {
                   disabled={saving}
                   onClick={handleSave}
                 >
-                  {saving ? "Saving..." : "Save Changes"}
+                  {saving ? "Saving .." : "Save Changes"}
                 </button>
               </div>
             </div>

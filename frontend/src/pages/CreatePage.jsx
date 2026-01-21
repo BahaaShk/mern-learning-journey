@@ -83,7 +83,7 @@ const CreatePage = () => {
 
                 <div className="card-actions justify-end">
                   <button type="submit" className="btn btn-primary btn-outline" disabled={loading}>
-                    {loading ? "Creating..." : "Create Note"}
+                    {loading ? "Creating .." : "Create Note"}
                   </button>
                 </div>
               </form>
