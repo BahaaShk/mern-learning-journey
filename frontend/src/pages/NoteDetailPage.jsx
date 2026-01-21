@@ -29,7 +29,7 @@ const NoteDetailPage = () => {
   if (loading) {
     return (
       <div className=" min-h-screen bg-base-200 flex items-center justify-center">
-        <LoaderIcon className=" animate-spin size-10" color="green" />
+        <LoaderIcon className=" animate-spin size-12" color="#00FF9D40" />
       </div>
     );
   }
